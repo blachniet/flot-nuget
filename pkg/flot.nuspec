@@ -9,7 +9,8 @@
     <licenseUrl>https://github.com/flot/flot/blob/master/LICENSE.txt</licenseUrl>
     <projectUrl>http://www.flotcharts.org/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>chart graph javascript jquery</description>
+    <summary>Attractive JavaScript charts for jQuery.</summary>
+    <description>Attractive JavaScript charts for jQuery. This NuGet package is managed from https://github.com/blachniet/flot-nuget.</description>
     <releaseNotes>
 Bug fix release.
 
@@ -58,7 +59,7 @@ Bug fix release.
    (reported by Michal Zglinski) +Fix
     </releaseNotes>
     <copyright>Copyright 2013</copyright>
-    <tags>bootstrap switch toggle</tags>
+    <tags>chart graph javascript jquery</tags>
     <dependencies>
         <dependency id="jQuery" />
     </dependencies>
