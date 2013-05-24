@@ -1,5 +1,5 @@
-flot-nuget
-==========
+![flot](http://www.flotcharts.org/images/header.png) ![nuget](http://download-codeplex.sec.s-msft.com/Download?ProjectName=nuget&DownloadId=162974&Build=20527)
+====================
 
 [Flot](http://www.flotcharts.org/) as a [NuGet](https://nuget.org/) package.
 
