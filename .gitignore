@@ -1,1 +1,4 @@
 *.nupkg
+pkg/
+flot/
+flot*.zip
