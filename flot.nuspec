@@ -3,7 +3,7 @@
   <metadata>
     <id>flot</id>
     <title>flot</title>
-    <version>0.8.1</version>
+    <version>0.8.2</version>
     <authors>Ole Laursen, David Schnur</authors>
     <owners>Brian Lachniet</owners>
     <licenseUrl>https://github.com/flot/flot/blob/master/LICENSE.txt</licenseUrl>
@@ -11,7 +11,7 @@
     <iconUrl>https://raw.github.com/blachniet/flot-nuget/master/header32.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Attractive JavaScript charts for jQuery.</summary>
-    <description>Attractive JavaScript charts for jQuery. This NuGet package is managed from https://github.com/blachniet/flot-nuget.</description>
+    <description>Attractive JavaScript charts for jQuery. Please repot NuGet package issues at https://github.com/blachniet/flot-nuget/issues.</description>
     <releaseNotes>
 Bug fix release.
 
@@ -62,7 +62,7 @@ Bug fix release.
     <copyright>Copyright © 2007 - 2013 IOLA and Ole Laursen</copyright>
     <tags>chart graph javascript jquery</tags>
     <dependencies>
-        <dependency id="jQuery" versions="1.8.3" />
+        <dependency id="jQuery" version="1.8.3" />
     </dependencies>
   </metadata>
 </package>

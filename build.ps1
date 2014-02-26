@@ -1,7 +1,7 @@
 ﻿function Clean{
     rm flot -Recurse -Force -ErrorAction SilentlyContinue
-    rm flot*.zip
-    rm pkg -Recurse -Force
+    rm flot*.zip -ErrorAction SilentlyContinue
+    rm pkg -Recurse -Force -ErrorAction SilentlyContinue
 }
 
 function Update{
@@ -18,7 +18,7 @@ function Package{
     & "C:\Program Files\7-Zip\7z.exe" x "flot.zip"
 
     mkdir pkg\Content\Scripts\flot
-    cp flot\*.js pkg\Content\Scripts\flot
+    cp flot\*.js pkg\Content\Scripts\flot -Exclude jquery.js,jquery.min.js
     cp flot.nuspec pkg
     nuget pack pkg\flot.nuspec
 }
