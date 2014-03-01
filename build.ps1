@@ -5,7 +5,7 @@
 }
 
 function Update{
-    #nuget update -self
+    nuget update -self
 
     $source = "http://www.flotcharts.org/downloads/flot-0.8.2.zip"
     $destination = (Join-Path (pwd) "flot.zip")
