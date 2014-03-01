@@ -4,11 +4,38 @@
 [Flot](http://www.flotcharts.org/) as a [NuGet](https://nuget.org/) package.
 
 
-Package Creation Steps
---------------------------
+Installation
+---------------
 
-1. Download and unzip the latest release from http://www.flotcharts.org/
-2. Copy all `*.js` files to `pkg\Content\Scripts\flot\`
-3. Remove `jquery.js` and `jquery.min.js` from the previous step.
-4. Copy desired supporting files to `pkg\`
-5. Run `build.cmd`
+To install flot, run the following command in the [Package Manager Console](http://docs.nuget.org/docs/start-here/using-the-package-manager-console). You can see the package on the [NuGet Gallery](https://www.nuget.org/packages/flot/).
+
+    PM> Install-Package flot
+    
+    
+Issues
+--------
+
+- Report [flot](http://www.flotcharts.org/) issues [here](https://github.com/flot/flot/issues)
+- Report NuGet package issues [here](https://github.com/blachniet/flot-nuget/issues)
+
+
+Building the Package
+----------------------
+
+### Requirements
+
+- PowerShell
+- [NuGet Command Line Utility](http://nuget.org/nuget.exe) in your path
+
+### Steps
+
+1. Set the [flot](http://www.flotcharts.org/) version to download in `build.ps1` ($source = "http://www.flotcharts.org/downloads/flot-0.8.2.zip")
+2. Update the version and release notes in [flot.nuspec]
+3. Execute `.\build.ps1`
+
+
+License
+----------
+
+- [This Repo's License](LICENSE)
+- [Flot's License](https://github.com/flot/flot/blob/master/LICENSE.txt)
