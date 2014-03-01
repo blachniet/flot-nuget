@@ -29,7 +29,7 @@ Building the Package
 
 ### Steps
 
-1. Set the [flot](http://www.flotcharts.org/) version to download in `build.ps1` ($source = "http://www.flotcharts.org/downloads/flot-0.8.2.zip")
+1. Set the [flot](http://www.flotcharts.org/) version to download in `build.ps1` (`$source = "http://www.flotcharts.org/downloads/flot-0.8.2.zip"`)
 2. Update the version and release notes in [flot.nuspec]
 3. Execute `.\build.ps1`
 
