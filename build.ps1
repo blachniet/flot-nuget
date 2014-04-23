@@ -7,7 +7,7 @@
 function Update{
     nuget update -self
 
-    $source = "http://www.flotcharts.org/downloads/flot-0.8.2.zip"
+    $source = "http://www.flotcharts.org/downloads/flot-0.8.3.zip"
     $destination = (Join-Path (pwd) "flot.zip")
     $wc = New-Object System.Net.WebClient
     $wc.DownloadFile($source, $destination)
