@@ -11,7 +11,7 @@
     <iconUrl>https://raw.github.com/blachniet/flot-nuget/master/header32.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Attractive JavaScript charts for jQuery.</summary>
-    <description>Attractive JavaScript charts for jQuery. Please repot NuGet package issues at https://github.com/blachniet/flot-nuget/issues.</description>
+    <description>Attractive JavaScript charts for jQuery. Please report NuGet package issues at https://github.com/blachniet/flot-nuget/issues.</description>
     <releaseNotes>Official release notes can be found at https://github.com/flot/flot/blob/master/NEWS.md. 
 
 ### Changes ###
